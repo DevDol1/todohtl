@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class="mainBox">
+        <div class="todoHeader">
+            <h2>To-Do List</h2>
+            <img src="images/checklist.webp" alt="logo" width="60" height="60">
+        </div>
+
+        <div class="todoBody">
+            <input type="text" id="todoTxt" class="todoIn" placeholder="Add a task you should do" />
+            <img src="images/plusSign.png" alt="Add Task" id="morepic" class="todoButss" onclick="createMission()">
+            <!-- <img src="images/del.webp" alt="Delete Task" class="todoButss" onclick="deleteMission()"> -->
+        </div>
+
+        <h5 id="incoming"></h5>
+        <div id="tasks-container" class="tasks-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
